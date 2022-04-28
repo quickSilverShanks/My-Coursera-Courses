@@ -1,0 +1,8 @@
+
+https://bit.ly/2UGa7uH
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W3/ungraded_labs/C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W3/ungraded_labs/C1_W3_Lab_2_exploring_convolutions.ipynb
+
+https://lodev.org/cgtutor/filtering.html

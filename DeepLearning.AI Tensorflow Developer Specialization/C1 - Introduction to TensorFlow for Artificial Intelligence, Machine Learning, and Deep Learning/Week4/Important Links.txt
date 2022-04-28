@@ -1,0 +1,18 @@
+
+https://www.youtube.com/watch?v=NlpS-DhayQA
+
+https://gombru.github.io/2018/05/23/cross_entropy_loss/
+    [https://neptune.ai/blog/keras-loss-functions]
+
+http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
+
+https://www.youtube.com/watch?v=eqEc66RFY0I&t=6s
+
+https://neptune.ai/blog/keras-loss-functions
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W4/ungraded_labs/C1_W4_Lab_1_image_generator_no_validation.ipynb
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W4/ungraded_labs/C1_W4_Lab_2_image_generator_with_validation.ipynb
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W4/ungraded_labs/C1_W4_Lab_3_compacted_images.ipynb
+

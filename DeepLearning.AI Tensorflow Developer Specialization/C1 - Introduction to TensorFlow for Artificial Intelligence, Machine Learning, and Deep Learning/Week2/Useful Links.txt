@@ -1,0 +1,9 @@
+
+https://github.com/zalandoresearch/fashion-mnist
+
+https://ai.google/responsibilities/responsible-ai-practices/
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W2/ungraded_labs/C1_W2_Lab_1_beyond_hello_world.ipynb
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W2/ungraded_labs/C1_W2_Lab_2_callbacks.ipynb
+
