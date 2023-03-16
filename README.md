@@ -1,5 +1,5 @@
 # My Coursera Courses
- My Coursera Courses, Coding assignment files, Certificates and other inportant tutorial codes.
+ My Coursera Courses, Coding assignment files, Certificates and other important tutorial codes.
 
 <hr>
 Files in the below gdrive folders need to be downloaded from gdrive:
