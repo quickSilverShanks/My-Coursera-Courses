@@ -1,0 +1,74 @@
+{
+  "version" : 0.0,
+  "dataset" : {
+    "item_count" : 7110,
+    "evaluation_time" : "2023-04-07T10:30:34.975Z"
+  },
+  "multiclass_classification_metrics" : {
+    "confusion_matrix" : {
+      "0" : {
+        "0" : 1144,
+        "1" : 371,
+        "-1" : 855
+      },
+      "1" : {
+        "0" : 402,
+        "1" : 1726,
+        "-1" : 242
+      },
+      "-1" : {
+        "0" : 720,
+        "1" : 214,
+        "-1" : 1436
+      }
+    },
+    "accuracy" : {
+      "value" : 0.6056258790436005,
+      "standard_deviation" : 0.002400748176038533
+    },
+    "weighted_recall" : {
+      "value" : 0.6056258790436005,
+      "standard_deviation" : 0.0024007481760384692
+    },
+    "weighted_precision" : {
+      "value" : 0.6062112994805061,
+      "standard_deviation" : 0.0026162680905644437
+    },
+    "weighted_f0_5" : {
+      "value" : 0.605879732083786,
+      "standard_deviation" : 0.0025695720067262866
+    },
+    "weighted_f1" : {
+      "value" : 0.6055806617587826,
+      "standard_deviation" : 0.0025024954210403775
+    },
+    "weighted_f2" : {
+      "value" : 0.6055247670951004,
+      "standard_deviation" : 0.0024393284603380304
+    },
+    "accuracy_best_constant_classifier" : {
+      "value" : 0.3333333333333333,
+      "standard_deviation" : 0.0016823042399708268
+    },
+    "weighted_recall_best_constant_classifier" : {
+      "value" : 0.3333333333333333,
+      "standard_deviation" : 0.0016823042399708268
+    },
+    "weighted_precision_best_constant_classifier" : {
+      "value" : 0.1111111111111111,
+      "standard_deviation" : 0.0011214491513004807
+    },
+    "weighted_f0_5_best_constant_classifier" : {
+      "value" : 0.1282051282051282,
+      "standard_deviation" : 0.001244220353957209
+    },
+    "weighted_f1_best_constant_classifier" : {
+      "value" : 0.16666666666666666,
+      "standard_deviation" : 0.0014719373154657932
+    },
+    "weighted_f2_best_constant_classifier" : {
+      "value" : 0.2380952380952381,
+      "standard_deviation" : 0.0017165969456035034
+    }
+  }
+}
