@@ -1,0 +1,7 @@
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W3/ungraded_lab/C2_W3_Lab_1_transfer_learning.ipynb
+
+https://www.tensorflow.org/tutorials/images/transfer_learning
+
+https://www.youtube.com/watch?v=ARq74QuavAo
+

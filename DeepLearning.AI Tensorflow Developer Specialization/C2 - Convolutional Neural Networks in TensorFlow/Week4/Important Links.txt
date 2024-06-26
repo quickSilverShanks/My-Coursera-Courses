@@ -1,0 +1,13 @@
+
+http://www.laurencemoroney.com/rock-paper-scissors-dataset/
+
+https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps.zip
+
+https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps-test-set.zip
+
+https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps-validation.zip
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W4/ungraded_lab/C2_W4_Lab_1_multi_class_classifier.ipynb
+
+https://www.kaggle.com/datamunge/sign-language-mnist
+
