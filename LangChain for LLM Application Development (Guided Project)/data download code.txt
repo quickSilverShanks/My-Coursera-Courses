@@ -1,0 +1,4 @@
+from IPython.display import FileLink
+
+# Create a clickable download link
+FileLink("abc.csv")
