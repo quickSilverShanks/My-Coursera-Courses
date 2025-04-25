@@ -1,0 +1,26 @@
+>> Downloading a single file
+
+Code:
+
+from IPython.display import FileLink
+
+# Create a clickable download link
+FileLink("abc.csv")
+
+
+
+
+>> Downloading an entire folder as a zipped file
+
+Code:
+
+import shutil
+from IPython.display import FileLink
+
+# Zip the folder
+shutil.make_archive('myfolder_zipped', 'zip', 'myfolder')
+
+# Create download link
+FileLink('myfolder_zipped.zip')
+
+
