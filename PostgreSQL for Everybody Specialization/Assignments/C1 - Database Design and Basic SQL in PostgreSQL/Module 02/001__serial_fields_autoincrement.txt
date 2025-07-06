@@ -1,0 +1,5 @@
+CREATE TABLE automagic (
+	id SERIAL,
+	name CHAR(32) NOT NULL,
+	height FLOAT NOT NULL
+);

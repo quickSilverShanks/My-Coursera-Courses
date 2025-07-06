@@ -1,0 +1,7 @@
+INSERT INTO make (name) VALUES ('Aston Martin'), ('BMW');
+INSERT INTO model (name, make_id) VALUES
+	('DB9 Volante Manual', 1),
+	('DBS', 1),
+	('DBS Coupe', 1),
+	('528i', 2),
+	('528i Sport Wagon', 2);
