@@ -1,0 +1,19 @@
+CREATE TABLE docs03 (id SERIAL, doc TEXT, PRIMARY KEY(id));
+
+INSERT INTO docs03 (doc) VALUES
+('should be wondering a bit about the Python interpreter itself What'),
+('language is it written in Is it written in a compiled language When we'),
+('type python what exactly is happening'),
+('The Python interpreter is written in a highlevel language called C'),
+('You can look at the actual source code for the Python interpreter by'),
+('source code So Python is a program itself and it is compiled into'),
+('machine code When you installed Python on your computer or the vendor'),
+('installed it you copied a machinecode copy of the translated Python'),
+('program onto your system In Windows the executable machine code for'),
+('Python itself is likely in a file with a name like');
+
+INSERT INTO docs03 (doc) SELECT 'Neon ' || generate_series(10000,20000);
+
+CREATE INDEX array03 ON docs03 USING gin(string_to_array(lower(doc), ' '));
+
+EXPLAIN SELECT id, doc FROM docs03 WHERE '{interpreter}' <@ string_to_array(lower(doc), ' ');

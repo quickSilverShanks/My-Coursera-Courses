@@ -1,0 +1,24 @@
+import psycopg2
+import hidden
+
+secrets = hidden.secrets()
+
+conn = psycopg2.connect(host=secrets['host'],port=secrets['port'], connect_timeout=5,
+			database=secrets['database'], user=secrets['user'], password=secrets['pass'])
+cur = conn.cursor()
+
+cur.execute('''DROP TABLE IF EXISTS pythonseq CASCADE;''')
+cur.execute('''CREATE TABLE pythonseq (iter INTEGER, val INTEGER);''')
+conn.commit()
+
+number = 644052
+
+for i in range(300):
+    if i%50==0:
+        print(i+1, number)
+    sql = 'INSERT INTO pythonseq (iter, val) VALUES (%s, %s)'
+    cur.execute(sql, (i+1, number))
+    number = int((number * 22) / 7) % 1000000
+
+conn.commit()
+cur.close()
