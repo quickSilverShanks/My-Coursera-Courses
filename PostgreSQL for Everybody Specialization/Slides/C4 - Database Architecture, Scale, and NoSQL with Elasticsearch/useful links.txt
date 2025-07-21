@@ -1,0 +1,12 @@
+https://youtu.be/6x0cAzQ7PVs?t=560
+
+https://www.youtube.com/watch?v=zRwPSFpLX8I
+
+https://www.youtube.com/watch?v=BNHR6IQJGZs
+
+Deno KV Documentation: https://docs.deno.com/deploy/kv/manual/
+
+Deno Deploy Hosting (free account): https://dash.deno.com/login?redirect=%2F
+
+KV Admin Install Instructions: https://github.com/csev/deno-kv-admin/blob/main/README.md
+

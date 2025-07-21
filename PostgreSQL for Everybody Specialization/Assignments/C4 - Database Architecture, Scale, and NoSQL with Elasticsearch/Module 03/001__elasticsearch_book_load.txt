@@ -1,0 +1,14 @@
+wget https://www.pg4e.com/gutenberg/cache/epub/22381/pg22381.txt
+wget https://www.pg4e.com/code/elasticbook.py
+wget https://www.pg4e.com/code/hidden-dist.py
+
+mv hidden-dist.py hidden.py
+
+pip install 'elasticsearch<7.14.0'
+pip install "numpy<2.0"
+
+wget https://www.pg4e.com/code/elastictool.py
+
+python3 elasticbook.py
+python3 elastictool.py
+
