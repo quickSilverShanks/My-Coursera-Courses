@@ -1,0 +1,13 @@
+- Install wsl in windows and launch its terminal.
+
+
+- Install ollama with below command:
+curl https://ollama.ai/install.sh | sh
+
+
+- Launch ollama service with below command:
+ollama serve
+
+
+- Now go to a new terminal tab and run below command to run llm locally:
+ollama run llama2
